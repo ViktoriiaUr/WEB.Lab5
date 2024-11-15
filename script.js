@@ -115,6 +115,6 @@ function createTextList(text) {
     list.appendChild(listItem);
 }
 
-window.addEventListener('beforeonload', () => {
+window.addEventListener('beforeunload', () => {
     localStorage.removeItem('orderedList');
 });
